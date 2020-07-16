@@ -16,14 +16,9 @@ alias kgp='kubectl get pod'
 alias kgd='kubectl get deploy'
 alias k='kubectl'
 alias l='gls -ls -X --color -a'
-alias kprod='kubectl config use-context gke_o-production_asia-southeast1-b_enterprise-cluster'
-alias kstag='kubectl config use-context gke_o-staging_asia-southeast1-b_enterprise-cluster'
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
 export PATH=$PATH:/Applications/Chromium.app/Contents/MacOS
 
-#BRANKAS
-alias cdob= 'cd ~/brankas/openbank-services'
-alias cdfco='cd ~/brankas/openbank-services/suite/b-enterprise/fast-checkout'
-alias cdgunkdef='cd ~/brankas/openbank-services/gunk'
-alias config='/usr/bin/git --git-dir=/Users/kofo/.cfg/ --work-tree=/Users/kofo'
+#WORK
+source .work_profile
