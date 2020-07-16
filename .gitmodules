@@ -1,6 +1,6 @@
 [submodule ".vim/pack/dist/start/vim-airline"]
 	path = .vim/pack/dist/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
-[submodule ".vim/pack/dist/start/vim-ansible-yaml"]
-	path = .vim/pack/dist/start/vim-ansible-yaml
-	url = git@github.com:chase/vim-ansible-yaml.git
+[submodule ".vim/pack/plugins/start/govim"]
+	path = .vim/pack/plugins/start/govim
+	url = git@github.com:govim/govim.git
