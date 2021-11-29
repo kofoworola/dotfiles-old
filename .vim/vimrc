@@ -65,4 +65,4 @@ if has("patch-8.1.1904")
   set completeopt+=popup
   set completepopup=align:menu,border:off,highlight:Pmenu
 endif
-autocmd BufNewFile,BufRead *.gunk setlocal filetype=go
+autocmd BufNewFile,BufRead *.gunk setlocal filetype=gomod
