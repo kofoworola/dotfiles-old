@@ -13,6 +13,6 @@
 [submodule ".vim/bundle/tabular"]
 	path = .vim/bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
-[submodule "vim/pack/plugins/start/vim-terraform"]
-	path = vim/pack/plugins/start/vim-terraform
+[submodule ".vim/pack/plugins/start/vim-terraform"]
+	path = .vim/pack/plugins/start/vim-terraform
 	url = git@github.com:hashivim/vim-terraform.git
